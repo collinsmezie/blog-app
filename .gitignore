@@ -33,8 +33,8 @@
 # .gitignore
 node_modules/
 
-/.vendor/bundle/ruby/3.1.0/gems/rack-2.2.4/contrib/rdoc.css
+/rdoc.css
 
-/.vendor/bundle/ruby/3.1.0/gems/actiontext-7.0.3.1/app/assets/stylesheets/trix.css
+/trix.css
 
-/.vendor/bundle/ruby/3.1.0/gems/actionpack-7.0.3.1/lib/action_dispatch/journey/visualizer/fsm.css
+/fsm.css
