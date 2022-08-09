@@ -26,6 +26,7 @@ h2 {
 .instruction li { padding: 0 10px 5px; }
 
 .form { background: #eee; padding: 20px 30px; border-radius: 5px; margin-left: auto; margin-right: auto; width: 500px; margin-bottom: 20px; }
+
 .form p,
 .form form { text-align: center; }
 .form form { padding: 0 10px 5px; }
