@@ -1,10 +1,11 @@
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 /*
 Trix 1.3.1
 Copyright © 2020 Basecamp, LLC
 http://trix-editor.org/ */
-trix-editor {
+
+/* trix-editor {
   border: 1px solid #bbb;
   border-radius: 3px;
   margin: 0;
@@ -559,4 +560,4 @@ trix-editor .attachment__metadata .attachment__size {
 .trix-content .attachment-gallery.attachment-gallery--4 .attachment {
   flex-basis: 50%;
   max-width: 50%;
-}
+} */
