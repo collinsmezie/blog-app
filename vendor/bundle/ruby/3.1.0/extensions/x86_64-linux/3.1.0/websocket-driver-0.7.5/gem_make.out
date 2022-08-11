@@ -1,5 +1,5 @@
 current directory: /home/i-net/the_odin_project/blog-app/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-/home/i-net/.rbenv/versions/3.1.2/bin/ruby -I /home/i-net/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220809-147196-11qrek.rb extconf.rb
+/home/i-net/.rbenv/versions/3.1.2/bin/ruby -I /home/i-net/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220811-47345-xlz5p0.rb extconf.rb
 creating Makefile
 
 current directory: /home/i-net/the_odin_project/blog-app/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
@@ -12,4 +12,4 @@ linking shared-object websocket_mask.so
 
 current directory: /home/i-net/the_odin_project/blog-app/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20220809-147196-6ts8uz
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20220811-47345-dito56
