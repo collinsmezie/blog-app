@@ -1,5 +1,5 @@
 current directory: /home/i-net/the_odin_project/blog-app/vendor/bundle/ruby/3.1.0/gems/pg-1.4.3/ext
-/home/i-net/.rbenv/versions/3.1.2/bin/ruby -I /home/i-net/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220809-147196-41it3p.rb extconf.rb
+/home/i-net/.rbenv/versions/3.1.2/bin/ruby -I /home/i-net/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220811-47345-nqrkik.rb extconf.rb
 Calling libpq with GVL unlocked
 checking for pg_config... yes
 Using config values from /usr/bin/pg_config
@@ -285,5 +285,5 @@ linking shared-object pg_ext.so
 
 current directory: /home/i-net/the_odin_project/blog-app/vendor/bundle/ruby/3.1.0/gems/pg-1.4.3/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 pg_ext.so ./.gem.20220809-147196-6ul6vq
+/usr/bin/install -c -m 0755 pg_ext.so ./.gem.20220811-47345-e8b8rw
 installing pg_ext libraries

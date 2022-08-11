@@ -1,5 +1,5 @@
 current directory: /home/i-net/the_odin_project/blog-app/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
-/home/i-net/.rbenv/versions/3.1.2/bin/ruby -I /home/i-net/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220809-147196-y2iqqp.rb extconf.rb
+/home/i-net/.rbenv/versions/3.1.2/bin/ruby -I /home/i-net/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220811-47345-p7ie54.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... yes
@@ -278,4 +278,4 @@ linking shared-object nio4r_ext.so
 
 current directory: /home/i-net/the_odin_project/blog-app/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20220809-147196-mz0cfm
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20220811-47345-63nokx
