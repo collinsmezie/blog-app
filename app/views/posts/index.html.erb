@@ -1,0 +1,26 @@
+<h1>posts loading</h1>
+
+<h1>Listing Posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.title %></td>
+        <td><%= post.text %></td>
+        </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
