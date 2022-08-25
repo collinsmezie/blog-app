@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Blog App
-This is a Catalog of things created with Ruby
+This is a Catalog of blogs created with Ruby on Rails
 ### Description
 A fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts. Built with Ruby on Rails.
 ### Cloning the project
