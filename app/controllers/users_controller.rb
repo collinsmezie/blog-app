@@ -8,6 +8,5 @@ class UsersController < ApplicationController
     @posts = @user.posts.includes(:comments)
     @first_3_posts = @user.first_three_posts
     @last_3_posts = @user.last_three_posts
-
   end
 end

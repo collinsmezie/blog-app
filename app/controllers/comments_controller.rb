@@ -9,7 +9,6 @@ class CommentsController < ApplicationController
     @user = User.find(params[:id])
 
     @comment = Comment.find(params[:id])
-     
   end
 
   # GET /comments/new
