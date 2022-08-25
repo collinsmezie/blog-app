@@ -33,12 +33,12 @@ Setup
 ## Run tests
     Run bundle install
     Run rspec
-## Author
+## Authors
 :bust_in_silhouette: **Collins mezie**
 - GitHub: [collinsmezie](https://github.com/collinsmezie/blog-app)
 - LinkedIn: [collinsmezie](https://www.linkedin.com/in/collinsmezie/)
 
-:bust_in_silhouette: **Ali mezie**
+:bust_in_silhouette: **Ali Jendoubi**
 - GitHub: [ichala]](https://github.com/ichala/)
 - LinkedIn: [ichala](https://www.linkedin.com/in/ichala)
 ## :handshake: Contributing
