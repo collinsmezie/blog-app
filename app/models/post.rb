@@ -15,6 +15,10 @@ class Post < ApplicationRecord
     comments.order('created_at DESC').limit(5)
   end
 
+  def first_comment
+    comments.order('created_at asc').limit(1)
+  end
+
   def update_post_counter
     user.update(post_counter: user.posts.size)
   end

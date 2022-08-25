@@ -1,4 +1,10 @@
 <p><strong>UserName:</strong> <%=@user.name%></p>
-<p><strong>Number of posts:</strong> <%=@user.post_counter%></p>
+<strong>Photo:</strong> <img src=<%=@user.photo%>/>
 <p><strong>Bio:</strong> <%=@user.bio%></p>
-
+<p><strong>Number of posts:</strong> <%=@user.post_counter%></p>
+<p><strong>sample posts</strong></p>
+<% @first_3_posts.each do |post| %>
+    <a class="user" href='/users/<%=@user.id%>/posts/<%=post.id%>'>Title: <%=post.title%></a><br>
+    <p>Text: <%=post.text%></p>
+<% end %>
+<a class='link' href='/users/<%=@user.id%>/posts/'>See all posts</a>

@@ -12,7 +12,7 @@ RSpec.describe 'Posts', type: :request do
       expect(response).to have_http_status(:ok)
     end
     it 'renders correct page contents' do
-      expect(response.body).to include('posts loading')
+      expect(response.body).to include('User Posts')
     end
     it 'renders index template' do
       expect(response).to render_template('index')
