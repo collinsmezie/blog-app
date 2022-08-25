@@ -5,7 +5,9 @@ class PostsController < ApplicationController
   end
 
   def show
-    @user_post = Post.find(params[:id])
+    @user = User.find(params[:user_id])
+    @user_post = @user.posts.find(params[:id])
+    # @user_comment = @user_post.comments
   end
 
   def new
@@ -29,4 +31,6 @@ class PostsController < ApplicationController
       render :new
     end
   end
+
+
 end

@@ -7,7 +7,11 @@ class User < ApplicationRecord
 
   validates :post_counter, numericality: { greater_than_or_equal_to: 0 }
 
-  def most_recent_posts
+  def last_three_posts
     posts.order('created_at DESC').limit(3)
+  end
+
+  def first_three_posts
+    posts.order('created_at asc').limit(3)
   end
 end

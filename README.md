@@ -31,3 +31,20 @@ Feel free to check the [issues page](https://github.com/collinsmezie/blog-app/is
 ## Show your support
 Give a :star:️ if you like this project!
 ## :memo: License
+
+ it 'I can see the first comments on a post' do
+        visit users_path
+        first(".user-link").click
+        first(".link").click
+        @posts.each do |post|
+            post.first_comment.each do |comment|
+                expect(page).to have_content(comment.text)
+            end 
+        end 
+    end
+
+     user_post = @user.first_three_posts
+        user_post.each do |post|
+         expect(page).to have_content(post.title)
+         expect(page).to have_content(post.text)
+        end

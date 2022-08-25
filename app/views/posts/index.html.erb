@@ -1,24 +1,19 @@
-<h1>Listing Posts</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Content</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @posts.each do |post| %>
-      <tr>
-        <td><%= post.title %></td>
-        <td><%= post.text %></td>
-        </tr>
-    <% end %>
-  </tbody>
-</table>
+<h1>User Posts</h1>
+<p><strong>User name</strong>: <%=@user.name%></p>
+<p><strong>photo</strong>: <img src= <%=@user.photo%></p>
+<p><strong>Number of posts: </strong>: <%=@user.post_counter%></p>
 
 <br>
+
+<% @posts.each do |post| %>
+  <a class="user" href='/users/<%=@user.id%>/posts/<%=post.id%>'>Title: <%=post.title%></a><br>
+  <p>Text: <%=post.text%></p>
+  <p>comments: <%= post.comment_counter %></p>
+  <p>likes: <%= post.like_counter %></p>
+
+  <% post.first_comment.each do |comment| %>
+      <p><strong>first comment:</strong> <%= comment.text %></p>
+      <% end %>
+<% end %>
 
 

@@ -1,6 +1,7 @@
 <h1>Users</h1>
 <% @users.each do |user| %>
-  Name: <%= user.name %><br>
-  number of posts: <%= user.post_counter %><br>
+  <a class="user-link" href='/users/<%= user.id %>'><strong>Name</strong>: <%= user.name %></a><br>
+  <img src= <%= user.photo %>><br>
+  <strong>Number of posts</strong>: <%= user.post_counter %><br>
 <% end %>
 

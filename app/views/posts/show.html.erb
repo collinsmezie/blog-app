@@ -1,2 +1,12 @@
+<p><strong>Post author:</strong> <%=@user.name%></p>
 <p><strong>title:</strong> <%=@user_post.title%></p>
 <p><strong>text:</strong> <%=@user_post.text%></p>
+<p><strong>comments: </strong> <%=@user_post.comment_counter%></p>
+<p><strong>likes: </strong> <%=@user_post.like_counter%></p>
+
+<% @user_post.comments.each do |comment| %>
+    <strong>commentor</strong>: <%= comment.user.name %><br>
+    <strong>comment</strong>: <%= comment.text %><br>
+  <% end %>
+  
+
