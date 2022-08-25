@@ -32,7 +32,7 @@ Setup
     postgresql
 ## Run tests
     Run bundle install
-    Run rubocop
+    Run rspec
 ## Author
 :bust_in_silhouette: **Collins mezie**
 - GitHub: [collinsmezie](https://github.com/collinsmezie/blog-app)
