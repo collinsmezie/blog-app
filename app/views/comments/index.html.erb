@@ -1,22 +1,14 @@
-<h1>Listing Comments</h1>
+<p style="color: green"><%= notice %></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Content</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<h1>Comments</h1>
 
-  <tbody>
-    <% @comments.each do |comment| %>
-      <tr>
-        <td><%= comment.text %></td>
-        </tr>
-    <% end %>
-  </tbody>
-</table>
+<div id="comments">
+  <% @comments.each do |comment| %>
+    <%= render comment %>
+    <p>
+      <%= link_to "Show this comment", comment %>
+    </p>
+  <% end %>
+</div>
 
-<br>
-
-
+<%= link_to "New comment", new_comment_path %>

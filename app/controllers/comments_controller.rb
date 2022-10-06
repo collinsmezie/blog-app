@@ -1,15 +1,11 @@
 class CommentsController < ApplicationController
+  before_action :set_comment, only: %i[show edit update destroy]
   def index
-    @post = Post.find(params[:post_id])
-    @comments = Comment.where(post: @post.id)
+    @comments = Comment.all
   end
 
   # GET /comments/1 or /comments/1.json
-  def show
-    @user = User.find(params[:id])
-
-    @comment = Comment.find(params[:id])
-  end
+  def show; end
 
   # GET /comments/new
   def new

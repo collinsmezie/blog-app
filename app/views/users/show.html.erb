@@ -1,10 +1,24 @@
-<p><strong>UserName:</strong> <%=@user.name%></p>
-<strong>Photo:</strong> <img src=<%=@user.photo%>/>
-<p><strong>Bio:</strong> <%=@user.bio%></p>
-<p><strong>Number of posts:</strong> <%=@user.post_counter%></p>
-<p><strong>sample posts</strong></p>
-<% @first_3_posts.each do |post| %>
-    <a class="user" href='/users/<%=@user.id%>/posts/<%=post.id%>'>Title: <%=post.title%></a><br>
-    <p>Text: <%=post.text%></p>
-<% end %>
-<a class='link' href='/users/<%=@user.id%>/posts/'>See all posts</a>
+<p style="color: green"><%= notice %></p>
+
+<%= render @user %>
+<div class="container">
+<div class="card mt-4 p-4">
+  <h4>Bio</h4>
+  <p class="text-muted">
+    <%= @user.bio %>
+  </p>
+</div>
+<div>
+ <div>
+    <% @recent_posts.each do |post, index| %>
+      <%= render partial: "posts/post" , locals: { post: post, index: index } %>
+        <% end %>
+  </div>
+  <div class="d-flex justify-content-center">
+    <%= link_to "New post", new_user_post_path(@user) %>
+ <%= link_to "See all posts" , user_posts_path(@user) if @user.posts_counter> 0 %>
+
+  </div>
+</div>
+</div>
+</div>
