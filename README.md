@@ -1,9 +1,6 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Blog App
-
-This is a Catalog of things created with Ruby
-
 ### Description
 A fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts. Built with Ruby on Rails.
 
@@ -11,9 +8,9 @@ A fully functional website that will show the list of posts and empower readers 
 
 ### Cloning the project
 
- git clone https://github.com/sentayhu19/Blog-app <Your-Build-Directory>
+ git clone https://github.com/collinsmezie/blog-app <Your-Build-Directory>
 ``` 
-- cd Blog-app
+- cd blog-app
 rails s
 ```
 
@@ -35,16 +32,16 @@ Setup
 
 ## Author
 
-👤 **Sentayhu Berhanu**
+👤 **Collins Mezie**
 
-- GitHub: [@sentayhu19](https://github.com/sentayhu19)
-- LinkedIn: [sentayhu-berhanu](https://www.linkedin.com/in/sentayhu-berhanu-6376579a/)
+- GitHub: [@collinsmezie](https://github.com/collinsmezie)
+- LinkedIn: [collins mezie](https://www.linkedin.com/in/collinsmezie/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sentayhu19/Catalog-of-my-things/issues).
+Feel free to check the [issues page](https://github.com/collinsmezie/blog-app/issues).
 
 ## Show your support
 
